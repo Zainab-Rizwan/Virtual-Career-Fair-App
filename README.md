@@ -1,69 +1,74 @@
-<h1 align="center">Virtual Career Fair App</h1>
+# Virtual Career Fair App
+[Link](http://www.virtualcareerfairapp.webhoster.com.pk/)
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/ushnaijaz/Virtual-Career-Fair-App.git">
-    <img src="uetlogo.png" alt="Logo" width="80" height="80">
-  </a>
- </div>
 
-## Table Of Content
-
-- [Table Of Content](#table-of-content)
+## Contents of this file
 - [Project Description](#project-description)
-  - [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
+- [Objectives](#objectives)
+- [Scope](#scope)
+- [Tech Stack](#tech-stack)
 - [Usage](#usage)
 - [Contributers](#contributers)
-- [Acknowledgments](#acknowledgments)
 - [License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 ## Project Description
+The essential goal of this application is to conduct and manage a Virtual Career Fair. This system is to handle the career fair program by connecting all the stakeholders, including organisers, companies and students. The Career Fair web application will allow students to have one-on-ones with recruiters and will end the need for career fair candidates to wait in long, ridiculous lines. This app is going to offer you a simulative virtual platform, where you can meet various recruiters and industry experts from the comfort of your homes and offices.
 
-[Live Link](http://www.virtualcareerfairapp.webhoster.com.pk/)
-
-The aim of the project is to develop an interactive web-based application to help candidates find a job that matches their skill set in their desired company. Similarly, companies can also find a perfect fit for the vacant posts by allotting time slots to the candidates and having an online interview with them within a specific time limit.
-This project will have four main parts:
-
+This project has four main parts:
 - A database that will store all the data about the employers and candidates
 - An administrative interface that would allow adding, removing, and editing information of the company and candidate
 - An interface for employers where they can see the candidates who applied for the job, can exhibit their posters, and can upload the time slots they will be available at
 - Candidates interface where they can apply for the job that matches their interests, upload resumes and can read an intro about the company
 
-### Built With
+## Objectives
+Due to the social distancing regulations in the current pandemic situation, organizing a physical career fair has become tedious and unrealistic. Hence our primary goal is to make a platform where virtual career fairs can be organized and conducted amidst the current situation in the country. The virtual nature will allow a broader community and will allow both companies, and candidates to participate in the event without any significant restrictions.
 
-- [HTML](https://code.visualstudio.com/docs/languages/html)
-- [CSS](https://code.visualstudio.com/docs/languages/html)
-- [JS](https://vuejs.org/)
+## Scope
+This web-based application has been developed to connect the following stakeholders of the system.
+- Students who are looking for a job placement/guidance.
+- Companies who are willing to recruit new candidates
+- Career fair organisers who are responsible for handling fair and who will facilitate the organizing of the event.
+
+### The undergraduates and graduates of U.E.T. shall be able to
+1. request to register for the career fair through the app before the career fair begins
+2. virtually wait in multiple lines while they are speaking with a recruiter or preparing to
+speak with their next recruiter.
+3. select which companies they would like to see at the career fair as well as rank the
+companies they would like to see
+4. network with as many companies as possible, with their preferences being a priority.
+5. get a notification once to be called for the meeting
+6. add/remove companies or change their company rankings while the career fair is in
+progress
+7. upload their resumes to the app
+8. view all advertisements for company vacancies
+
+### The relevant companies shall be able to
+1. request to register for the career fair
+2. upload materials about the company and resources for candidates
+3. upload advertisements for company vacancies
+4. view candidate CVs
+5. post the positions they are hiring for
+6. add which recruiters will be attending the career fair
+
+### The organisers shall be able to
+1. upload information about the career fair they are hosting including which companies are
+attending and the layout of the career fair
+2. authorize companies and students requested who registration
+3. view all registered companies and their profiles
+4. view all registered candidates and their profiles/CVs
+
+## Tech Stack
 - [PHP](https://www.php.net/)
 - [MYSQL](https://www.mysql.com/)
 - [Bootstrap](https://getbootstrap.com)
 - [JQuery](https://jquery.com)
+- [HTML](https://code.visualstudio.com/docs/languages/html)
+- [CSS](https://code.visualstudio.com/docs/languages/html)
+- [JS](https://vuejs.org/)
 
-<!-- GETTING STARTED -->
-## Getting Started
 
-Install and Run the Project
-
-### Installation
-
-1. Install a code editor [https://code.visualstudio.com/](https://code.visualstudio.com/)
-2. Clone the repo
-
-   ```sh
-   git clone https://github.com/ushnaijaz/Virtual-Career-Fair-App.git
-   ```
-
-3. Install Xampp or Wamp server from [here](https://www.wampserver.com/en/) or [here](https://www.apachefriends.org/download.html).
-4. Run the project
-
-<!--HOW TO USE THE PROJECT -->
 ## Usage
-
-As seen in the use case diagram all the functionalities offered on the web application is only applicable if you are logged in. You can log-in as a recruiter or a student.
+As seen in the use case diagram all the functionalities offered on the web application aew only applicable if you are logged in. You can log-in as a recruiter or as a student.
 First you will create an account by signing-up.
 
 <div align="center">
@@ -89,30 +94,17 @@ An organiser will have a dashboard in where he can create, read, update, delete 
 only when the organsier accepts the request, they can join a fair. The organziser will be sent notification each time someone sends a request for joining a fair. They can
 create, read, update, delete their profile on their dashboard.
 
-<!-- CONTRIBUTERS -->
 ## Contributers
-
-This project ows its completion to the sheer hard work and untiring efforts of the team members
-
-- [Ushna Ijaz](https://github.com/ushnaijaz)
-- [Saba Saeed](https://github.com/sabasaeed8)
-- [Marriam Salman](https://github.com/marriamsalman)
-- [Tayyaba Asif](https://github.com/tayyaba-asif)
+This project owes its completion to the sheer hard work and untiring efforts of the team members
 - [Zainab Rizwan](https://github.com/zainab-rizwan)
 - [Arooj Naeem](https://github.com/arooj-naeem)
 - [Maryam Nasir](https://github.com/maryamnasir65834)
 - [Sayyeda Asma](https://github.com/sayyedaasma)
+- [Ushna Ijaz](https://github.com/ushnaijaz)
+- [Saba Saeed](https://github.com/sabasaeed8)
+- [Marriam Salman](https://github.com/marriamsalman)
+- [Tayyaba Asif](https://github.com/tayyaba-asif)
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-- [VFairs](https://www.vfairs.com/)
-- [Career Fair Plus](https://www.careerfairplus.com/)
-- [IBA Virtual Career Fair](https://virtualfair.iba.edu.pk/en)
-
-<!-- LICENSE -->
 ## License
-
 Distributed under the MIT License. See `LICENSE.txt` for more information.
