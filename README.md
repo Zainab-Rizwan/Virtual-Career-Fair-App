@@ -1,6 +1,5 @@
 # Virtual Career Fair App
-[Link](http://www.virtualcareerfairapp.webhoster.com.pk/)
-This project was displayed in UET'S Centennial Technovation Innovation Summit 2022 and made it to the list of honorary mentions. 
+[This project](http://www.virtualcareerfairapp.webhoster.com.pk/) was displayed in UET'S Centennial Technovation Innovation Summit 2022 and made it to the list of honorary mentions. 
 
 
 ## Contents of this file
